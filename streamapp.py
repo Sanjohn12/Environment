@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 
 # --- Load Data ---
-df = pd.read_csv(r"C:\Users\sanojan\Desktop\sano Tcp\sem5\Studio\for any use\District_Data_Modified.csv")
+df = pd.read_csv("District_Data_Modified.csv")
 
 # --- Parameters ---
 param_cols = df.columns.tolist()
